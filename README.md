@@ -1,51 +1,39 @@
-# Angular on Netlify Quick Start Template    
-![netlify + angular logo](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646339469/angular_wzrs5o.png)
+# Next + Netlify Starter
 
-This is a bare-bones Angular project that has everything you need to quickly deploy it to [Netlify](https://netlify.com). 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
 
-Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
+This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/angular-quickstart)
+This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. It also includes the [Essential Next.js Build Plugin](https://github.com/netlify/netlify-plugin-nextjs), which will allow for you to implement features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing.
 
-## Setup
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
 
-Clone this repo with one of these options:
-- Click the 'Deploy to Netlify' button above
-- Click the 'Use this template' button at the top of the page
-- Or via the command line `git clone https://github.com/netlify-templates/angular-quickstart`
+(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
 
-Then install the necessary packages and run the project locally to make sure everything works.
+## Getting Started
+
+First, run the development server:
 
 ```bash
-npm install
-ng serve
+npm run dev
+# or
+yarn dev
 ```
 
-Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-> 🚨 If you decide to change the project name be sure to change it everywhere in the project including the [Netlify configuration file, `netlify.toml`](./netlify.toml), as there are many places in Angular projects where the project name is used. A quick fix is to find/replace all instances of `angular-quickstart` with your project name.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Deploying
+### Installation options
 
-There are a few ways to deploy this template:
-- Click the 'Deploy to Netlify' button above 
-- Use the `netlify deploy` command
-- Head to the [Netlify UI](https://app.netlify.com/) to deploy via GitHub or [drag and drop](https://app.netlify.com/drop) the project folder
-- Use the Netlify CLI's create from template command `netlify sites:create-template angular-quickstart` which will create a repo, Netlify project, and deploy it
+**Option one:** One-click deploy
 
-## Angular 💙 Netlify Resources
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
 
-Here are some resources to help you on your Angular + Netlify coding fun!
+**Option two:** Manual clone
 
-- [A video walkthrough of the Angular Quick Start Template](https://youtu.be/rNAiN94bBUs)
-- [A blog post on the Angular Quick Start Template](https://www.netlify.com/blog/get-started-with-angular-on-netlify-quickly)
-
-- [Angular on Netlify Configuration Docs](https://docs.netlify.com/configure-builds/common-configurations/angular/)
-- [Angular posts via the Netlify Blog](https://www.netlify.com/tags/angular/)
-- [Angular in the Jamstack Tutorials](https://explorers.netlify.com/learn/angular-in-the-jamstack)
-
-Hope this template helps :) Happy coding 👩🏻‍💻!
-
----
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+1. Clone this repo: `git clone https://github.com/netlify-templates/next-netlify-starter.git`
+2. Navigate to the directory and run `npm install`
+3. Run `npm run dev`
+4. Make your changes
+5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
