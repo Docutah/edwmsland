@@ -15,6 +15,9 @@ export default function Home() {
         <p className="description">
           Site is currently under maintenance
         </p>
+        <p>
+        <iframe src="https://giphy.com/embed/p95AUQEUVwZvHuAL8e" width="480" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/DogeBONK-bonk-dobo-dogebonk-p95AUQEUVwZvHuAL8e">via GIPHY</a></p>
+        </p>
       </main>
 
       <Footer />
