@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome EDWMSLAND!" />
         <p className="description">
-          Site is currently under maintenance</code>
+          Site is currently under maintenance
         </p>
       </main>
 
