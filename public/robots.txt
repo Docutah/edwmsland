@@ -1,0 +1,4 @@
+User-agent: facebookexternalhit/1.1 
+User-agent: Googlebot
+AdsBot-Google
+Disallow:
